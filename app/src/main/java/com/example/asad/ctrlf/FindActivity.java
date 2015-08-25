@@ -47,6 +47,7 @@ public class FindActivity extends Activity {
 	Bitmap originalBitmap;
 	Paint highlightPaint;
 
+	//Replace value of API_KEY with one from Microsoft Azure
 	final static String API_KEY = "882cd86596f740f6bfb54549d667dc50";
 	final static String API_URL = "https://api.projectoxford.ai/vision/v1/ocr?language=unk&detectOrientation=true&subscription-key="+ API_KEY;
 
