@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Camera"
+        android:id="@+id/camerabtn"
+        android:layout_above="@+id/gallerybtn"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Gallery"
+        android:id="@+id/gallerybtn"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/camerabtn"
+        android:layout_alignStart="@+id/camerabtn" />
+
+</RelativeLayout>
